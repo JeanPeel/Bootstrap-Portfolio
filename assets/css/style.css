@@ -1,39 +1,29 @@
 body {
     background: white;
-    margin: 0px;
-    padding: 0px;
     background: url('');
   }
 
 
 section {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    width: 960px; 
-    margin-top: 0px;
+   
 }
 
 #ban-img {
-    position: absolute;
-    left: 0px;
-    top: 0px;
+    
     width: 100%;
     height: 100%;   
     z-index: 1; 
 }
 
 #hu-img {
-    position: absolute;
-    left: 0px;
-    top: 0px;
+   
     width: 100%;
     height: 100%;
     z-index: 4;
 }
 
 #jp-title {
-    position: absolute;
+    
     text-align: center;
     color: 	#80afbd;
     font-family: 'Courgette', cursive;
