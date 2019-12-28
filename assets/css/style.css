@@ -9,7 +9,7 @@ body {
     padding: 0px;
     position: relative;
     top: 0px;
-    height: 300px;
+    height: 333px;
 }
 
 #ban-img { 
@@ -17,6 +17,8 @@ body {
     position: absolute;
     top: 0px;
     width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 #hu-img {
@@ -24,6 +26,8 @@ body {
     position: absolute;
     top: 0px;
     width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 #jp-title {
@@ -39,14 +43,17 @@ body {
     line-height: 110px;
     position: absolute;
     top: 50px;
-}
-
-nav {
-    background-color: #80afbd;
-    position: absolute;
-    top: 0px;
     margin: 0px;
     padding: 0px;
+}
+
+#nav-row {
+   background-color: #80afbd;
+   font-family: 'Courgette', cursive;
+   font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
 }
 
 
