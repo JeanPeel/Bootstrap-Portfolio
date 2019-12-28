@@ -1,0 +1,14 @@
+section {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 200px;
+    height: 200px;
+    background-color: #4aaaa5;  
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid black;
+}
+
+
+    
