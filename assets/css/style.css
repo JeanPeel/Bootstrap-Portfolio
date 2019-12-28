@@ -4,8 +4,9 @@ body {
   }
 
 
-section {
-   
+.jumbotron {
+    margin: 0px;
+    padding: 0px;
 }
 
 #ban-img {
