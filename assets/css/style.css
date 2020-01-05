@@ -1,7 +1,6 @@
 body {
     background: white;
     background: url('');
-    display: inline-block;
   }
 
 a {
@@ -14,6 +13,7 @@ color: #c6513b;
     position: relative;
     top: 0px;
     height: 333px;
+    border: 1px solid #443d36;
 }
 
 #coding-img { 
@@ -57,24 +57,37 @@ color: #c6513b;
     font-weight: bold;
     letter-spacing: 1px;
     color: white; 
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    font-family: 'Signika Negative', sans-serif;
     padding-top: 0px;
     padding-bottom: 0px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 0px;
+    border: 1px solid #443d36;
+    color: #597a84;
+ 
 }
 
 #nav-jp {
-    color: white;
     font-family: 'Courgette', cursive;
     font-size: 35px;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-    color: #443d36;
+    padding-left: 55px;
+    padding-right: 60px;
+    color: #1d2134
+   
+}
+
+.tab {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
 }
 
 .active {
@@ -101,6 +114,7 @@ color: #c6513b;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #443d36;
     border: 10px solid #887b6d;
+    display: inline-block
 }
 
 .info2 {
@@ -116,6 +130,15 @@ color: #c6513b;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #443d36;
     border: 1px solid #887b6d; 
+    display: inline-block
+}
+
+#smAbt {
+
+}
+
+#prtflo {
+    margin-left: 45px;
 }
 
 #nav-bar2 {
@@ -130,7 +153,8 @@ color: #c6513b;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    border: 1px solid #443d36;
 }
 
 
