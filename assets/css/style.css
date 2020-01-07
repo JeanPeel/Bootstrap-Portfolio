@@ -234,6 +234,17 @@ h5 {
     padding-top: 8px;
 }
 
+.more {
+    border-bottom: 4px solid #887b6d;
+    margin-bottom: 6px;
+}
+
+.contact {
+    padding-top: 6px;
+    border-bottom: 6px solid #887b6d;
+    border-top: 6px solid #887b6d;
+}
+
 
 #nav-bar2 {
     color: #80afbd;
