@@ -134,13 +134,17 @@ div {
     
 }
 
+.main{
+    padding-left:20px;
+    padding-right:20px;
+}
+
 #about {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 30px;
     padding-bottom: 10px;
-    padding-left:25px;
-    padding-right:35px;
+    
     font-size: 20px;
     letter-spacing: 1px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -167,10 +171,18 @@ div {
     display: inline-block;
 }
 
-.inline-img {
-    padding-right: 10px;
-    padding-bottom: 15px;
+.floated-img {
+    padding-right: 25px;
+    padding-bottom: 0px;
+    float: left;
 }
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+
+  }
 
 .title {
     padding-top: 5px;
@@ -185,6 +197,21 @@ header {
     font-weight: bold;
     letter-spacing: 1px;
     font-family: 'Signika Negative', sans-serif;
+}
+
+h3 {
+    background-color: #80afbd;
+    margin-bottom: 15px; 
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white; 
+    font-family: 'Signika Negative', sans-serif;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #597a84;
 }
 
 h5 {
@@ -203,6 +230,9 @@ h5 {
     color: #597a84;
 }
 
+.resume {
+    padding-top: 8px;
+}
 
 
 #nav-bar2 {
